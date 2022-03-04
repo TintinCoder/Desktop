@@ -1,0 +1,815 @@
+[02/24/2022 10:05:09] Success	Setup started: C:\Users\yadav\Downloads\TLauncher-2.841-Installer-0.9.6.exe
+[02/24/2022 10:05:09] Notice	Setup engine version: 0.9.6.0
+[02/24/2022 10:05:09] Notice	Product: TLauncher, version 2.841
+[02/24/2022 10:05:09] Success	Language set: Primary = 9, Secondary = 1
+[02/24/2022 10:05:09] Success	Verify archive integrity
+[02/24/2022 10:05:09] Skipped	Date expiration check
+[02/24/2022 10:05:09] Skipped	Uses expiration check
+[02/24/2022 10:05:09] Success	System requirements check
+[02/24/2022 10:05:09] Success	Load plugin: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Wow64.lmd
+[02/24/2022 10:05:09] Success	Load plugin: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRZip.lmd
+[02/24/2022 10:05:09] Success	Include script: _SUF70_Global_Functions.lua
+[02/24/2022 10:05:09] Notice	Start project event: Global Functions
+[02/24/2022 10:05:09] Success	Run project event: Global Functions
+[02/24/2022 10:05:09] Notice	Start project event: On Startup
+[02/24/2022 10:05:09] Error		Script: On Startup, [300]: OperaPath04 = Wow64.RegistryGetKeyNames(HKEY_CURRENT_USER, "SOFTWARE\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Uninstall", Wow64.KEY64); (1603)
+[02/24/2022 10:05:11] Success	Run project event: On Startup
+[02/24/2022 10:05:11] Success	Display screen: Custom 01
+[02/24/2022 10:05:13] Success	Display screen: Custom 02
+[02/24/2022 10:05:13] Error		Script: Custom 02 > On Preload, [903]: foundbrowser = File.Find(Shell.GetFolder(SHF_APPLICATIONDATA_LOCAL) .. "\\Yandex\\YandexBrowser\\Application\\", "*.exe", false, false); (1002)
+[02/24/2022 10:05:13] Error		Script: Custom 02 > On Preload, [910]: foundpin = File.Find(Shell.GetFolder(SHF_APPLICATIONDATA_LOCAL) .. "\\Yandex\\yapin\\", "*.exe", false, false); (1002)
+[02/24/2022 10:05:14] Success	Display screen: Custom 04
+[02/24/2022 10:05:22] Notice	Start project event: On Pre Install
+[02/24/2022 10:05:22] Success	Run project event: On Pre Install
+[02/24/2022 10:05:22] Success	Display screen: Custom Progress
+[02/24/2022 10:05:22] Success	Free space check on drive: C:\
+[02/24/2022 10:05:22] Success	Set uninstall data folder: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall
+[02/24/2022 10:05:22] Success	Set uninstall config file name: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\uninstall.xml
+[02/24/2022 10:05:22] Success	Uninstall config file merging
+[02/24/2022 10:05:22] Success	Create uninstall data folder: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall
+[02/24/2022 10:05:22] Success	Create uninstall data file: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\uninstall.dat
+[02/24/2022 10:05:22] Notice	Uninstall executable already exists: C:\Users\yadav\AppData\Roaming\.tlauncher\tl-uninstall.exe
+[02/24/2022 10:05:22] Notice	Compared uninstall file versions. New: 9.5.3.0 Old: 9.5.3.0 Result: 0
+[02/24/2022 10:05:22] Success	Overwrite uninstall executable: C:\Users\yadav\AppData\Roaming\.tlauncher\tl-uninstall.exe
+[02/24/2022 10:05:22] Success	Install archive file: C:\Users\yadav\AppData\Roaming\.minecraft\tlauncher_libraries\aopalliance\aopalliance\1.0\aopalliance-1.0.jar
+[02/24/2022 10:05:22] Success	File added to uninstall list: C:\Users\yadav\AppData\Roaming\.minecraft\tlauncher_libraries\aopalliance\aopalliance\1.0\aopalliance-1.0.jar
+[02/24/2022 10:05:22] Success	Install archive file: C:\Users\yadav\AppData\Roaming\.minecraft\tlauncher_libraries\com\github\junrar\junrar\0.7\junrar-0.7.jar
+[02/24/2022 10:05:22] Success	File added to uninstall list: C:\Users\yadav\AppData\Roaming\.minecraft\tlauncher_libraries\com\github\junrar\junrar\0.7\junrar-0.7.jar
+[02/24/2022 10:05:22] Success	Install archive file: C:\Users\yadav\AppData\Roaming\.minecraft\tlauncher_libraries\com\google\guava\guava\19.0\guava-19.0.jar
+[02/24/2022 10:05:22] Success	File added to uninstall list: C:\Users\yadav\AppData\Roaming\.minecraft\tlauncher_libraries\com\google\guava\guava\19.0\guava-19.0.jar
+[02/24/2022 10:05:22] Success	Install archive file: C:\Users\yadav\AppData\Roaming\.minecraft\tlauncher_libraries\com\google\inject\extentions\guice-assistedinject\4.1.0\guice-assistedinject-4.1.0.jar
+[02/24/2022 10:05:22] Success	File added to uninstall list: C:\Users\yadav\AppData\Roaming\.minecraft\tlauncher_libraries\com\google\inject\extentions\guice-assistedinject\4.1.0\guice-assistedinject-4.1.0.jar
+[02/24/2022 10:05:22] Success	Install archive file: C:\Users\yadav\AppData\Roaming\.minecraft\tlauncher_libraries\com\google\inject\guice\4.1.0\guice-4.1.0.jar
+[02/24/2022 10:05:22] Success	File added to uninstall list: C:\Users\yadav\AppData\Roaming\.minecraft\tlauncher_libraries\com\google\inject\guice\4.1.0\guice-4.1.0.jar
+[02/24/2022 10:05:22] Success	Install archive file: C:\Users\yadav\AppData\Roaming\.minecraft\tlauncher_libraries\dnsjava\dnsjava\2.1.8\dnsjava-2.1.8.jar
+[02/24/2022 10:05:22] Success	File added to uninstall list: C:\Users\yadav\AppData\Roaming\.minecraft\tlauncher_libraries\dnsjava\dnsjava\2.1.8\dnsjava-2.1.8.jar
+[02/24/2022 10:05:22] Success	Install archive file: C:\Users\yadav\AppData\Roaming\.minecraft\tlauncher_libraries\javax\inject\javax.inject\1\javax.inject-1.jar
+[02/24/2022 10:05:22] Success	File added to uninstall list: C:\Users\yadav\AppData\Roaming\.minecraft\tlauncher_libraries\javax\inject\javax.inject\1\javax.inject-1.jar
+[02/24/2022 10:05:22] Success	Install archive file: C:\Users\yadav\AppData\Roaming\.minecraft\tlauncher_libraries\log4j\log4j\1.2.17\log4j-1.2.17.jar
+[02/24/2022 10:05:22] Success	File added to uninstall list: C:\Users\yadav\AppData\Roaming\.minecraft\tlauncher_libraries\log4j\log4j\1.2.17\log4j-1.2.17.jar
+[02/24/2022 10:05:22] Success	Install archive file: C:\Users\yadav\AppData\Roaming\.minecraft\tlauncher_libraries\net\sf\jopt-simple\jopt-simple\4.9\jopt-simple-4.9.jar
+[02/24/2022 10:05:22] Success	File added to uninstall list: C:\Users\yadav\AppData\Roaming\.minecraft\tlauncher_libraries\net\sf\jopt-simple\jopt-simple\4.9\jopt-simple-4.9.jar
+[02/24/2022 10:05:22] Success	Install archive file: C:\Users\yadav\AppData\Roaming\.minecraft\tlauncher_libraries\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar
+[02/24/2022 10:05:22] Success	File added to uninstall list: C:\Users\yadav\AppData\Roaming\.minecraft\tlauncher_libraries\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar
+[02/24/2022 10:05:22] Success	Install archive file: C:\Users\yadav\AppData\Roaming\.minecraft\tlauncher_libraries\org\apache\httpcomponents\fluent-hc\4.5.13\fluent-hc-4.5.13.jar
+[02/24/2022 10:05:22] Success	File added to uninstall list: C:\Users\yadav\AppData\Roaming\.minecraft\tlauncher_libraries\org\apache\httpcomponents\fluent-hc\4.5.13\fluent-hc-4.5.13.jar
+[02/24/2022 10:05:22] Success	Install archive file: C:\Users\yadav\AppData\Roaming\.minecraft\tlauncher_libraries\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar
+[02/24/2022 10:05:23] Success	File added to uninstall list: C:\Users\yadav\AppData\Roaming\.minecraft\tlauncher_libraries\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar
+[02/24/2022 10:05:23] Success	Install archive file: C:\Users\yadav\AppData\Roaming\.minecraft\tlauncher_libraries\org\tlauncher\picture-bundle\3.5\picture-bundle-3.5.jar
+[02/24/2022 10:05:23] Success	File added to uninstall list: C:\Users\yadav\AppData\Roaming\.minecraft\tlauncher_libraries\org\tlauncher\picture-bundle\3.5\picture-bundle-3.5.jar
+[02/24/2022 10:05:23] Success	Install archive file: C:\Users\yadav\AppData\Roaming\.minecraft\tlauncher_libraries\org\tlauncher\skin-server-API\1.0\skin-server-API-1.0.jar
+[02/24/2022 10:05:23] Success	File added to uninstall list: C:\Users\yadav\AppData\Roaming\.minecraft\tlauncher_libraries\org\tlauncher\skin-server-API\1.0\skin-server-API-1.0.jar
+[02/24/2022 10:05:23] Success	Install archive file: C:\Users\yadav\AppData\Roaming\.minecraft\tlauncher_libraries\org\tlauncher\tlauncher-resource\1.4\tlauncher-resource-1.4.jar
+[02/24/2022 10:05:23] Success	File added to uninstall list: C:\Users\yadav\AppData\Roaming\.minecraft\tlauncher_libraries\org\tlauncher\tlauncher-resource\1.4\tlauncher-resource-1.4.jar
+[02/24/2022 10:05:23] Success	Install archive file: C:\Users\yadav\AppData\Roaming\.minecraft\tlauncher_libraries\org\tukaani\xz\1.5\xz-1.5.jar
+[02/24/2022 10:05:23] Success	File added to uninstall list: C:\Users\yadav\AppData\Roaming\.minecraft\tlauncher_libraries\org\tukaani\xz\1.5\xz-1.5.jar
+[02/24/2022 10:05:23] Success	Install archive file: C:\Users\yadav\AppData\Roaming\.minecraft\libraries\minecraft.ico
+[02/24/2022 10:05:23] Success	File added to uninstall list: C:\Users\yadav\AppData\Roaming\.minecraft\libraries\minecraft.ico
+[02/24/2022 10:05:23] Success	Install archive file: C:\Users\yadav\AppData\Roaming\.minecraft\libraries\tlicon.ico
+[02/24/2022 10:05:23] Success	File added to uninstall list: C:\Users\yadav\AppData\Roaming\.minecraft\libraries\tlicon.ico
+[02/24/2022 10:05:23] Success	Install archive file: C:\Users\yadav\AppData\Roaming\.minecraft\TLauncher.exe
+[02/24/2022 10:05:24] Success	File added to uninstall list: C:\Users\yadav\AppData\Roaming\.minecraft\TLauncher.exe
+[02/24/2022 10:05:24] Success	Create shortcut: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\TLauncher\TLauncher.lnk
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG1.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG1.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG1.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG2.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG2.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG2.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG3.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG3.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG3.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG4.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG4.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG4.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG5.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG5.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG5.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG6.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG6.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG6.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG7.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG7.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG7.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG8.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG8.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG8.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG9.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG9.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG9.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG10.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG10.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG10.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG11.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG11.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG11.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG12.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG12.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG12.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG13.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG13.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG13.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG14.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG14.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG14.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG15.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG15.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG15.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG16.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG16.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG16.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG17.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG17.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG17.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG18.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG18.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG18.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG19.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG19.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG19.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG20.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG20.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG20.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG21.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG21.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG21.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG22.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG22.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG22.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG23.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG23.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG23.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG24.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG24.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG24.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG25.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG25.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG25.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG26.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG26.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG26.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG27.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG27.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG27.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG28.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG28.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG28.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG29.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG29.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG29.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG30.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG30.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG30.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG31.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG31.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG31.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG32.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG32.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG32.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG33.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG33.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG33.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG34.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG34.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG34.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG35.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG35.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG35.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG36.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG36.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG36.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG37.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG37.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG37.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG38.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG38.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG38.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG39.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG39.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG39.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG40.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG40.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG40.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG41.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG41.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG41.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG42.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG42.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG42.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG43.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG43.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG43.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG44.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG44.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG44.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG45.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG45.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG45.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG46.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG46.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG46.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG47.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG47.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG47.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG1.BMP->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG1.BMP
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG1.BMP
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG2.BMP->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG2.BMP
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG2.BMP
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG3.BMP->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG3.BMP
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG3.BMP
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG4.BMP->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG4.BMP
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG4.BMP
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG5.BMP->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG5.BMP
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG5.BMP
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG6.BMP->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG6.BMP
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG6.BMP
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG7.BMP->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG7.BMP
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG7.BMP
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG8.BMP->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG8.BMP
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG8.BMP
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG9.BMP->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG9.BMP
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG9.BMP
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG10.BMP->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG10.BMP
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG10.BMP
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG11.BMP->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG11.BMP
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG11.BMP
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG12.BMP->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG12.BMP
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG12.BMP
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG13.BMP->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG13.BMP
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG13.BMP
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG14.BMP->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG14.BMP
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG14.BMP
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG15.BMP->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG15.BMP
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG15.BMP
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG16.BMP->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG16.BMP
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG16.BMP
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG17.BMP->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG17.BMP
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG17.BMP
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG18.BMP->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG18.BMP
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG18.BMP
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG19.BMP->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG19.BMP
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG19.BMP
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG48.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG48.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG48.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG49.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG49.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG49.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG50.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG50.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG50.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG51.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG51.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG51.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG52.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG52.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG52.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG53.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG53.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG53.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG54.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG54.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG54.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG55.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG55.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG55.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG56.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG56.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG56.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG57.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG57.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG57.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG58.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG58.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG58.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG59.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG59.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG59.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG60.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG60.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG60.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG61.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG61.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG61.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG62.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG62.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG62.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG63.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG63.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG63.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG64.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG64.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG64.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG65.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG65.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG65.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG66.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG66.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG66.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG67.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG67.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG67.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG68.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG68.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG68.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG69.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG69.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG69.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG70.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG70.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG70.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG71.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG71.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG71.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG72.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG72.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG72.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG73.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG73.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG73.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG74.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG74.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG74.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG75.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG75.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG75.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG76.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG76.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG76.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG77.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG77.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG77.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG78.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG78.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG78.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG79.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG79.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG79.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG80.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG80.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG80.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG81.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG81.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG81.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG82.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG82.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG82.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG83.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG83.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG83.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG84.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG84.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG84.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG85.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG85.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG85.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG86.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG86.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG86.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG87.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG87.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG87.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG88.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG88.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG88.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG89.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG89.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG89.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG90.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG90.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG90.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG91.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG91.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG91.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG92.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG92.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG92.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG93.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG93.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG93.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG94.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG94.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG94.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG95.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG95.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG95.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG96.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG96.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG96.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG97.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG97.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG97.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG98.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG98.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG98.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG99.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG99.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG99.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG100.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG100.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG100.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG101.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG101.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG101.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG102.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG102.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG102.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG103.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG103.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG103.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG104.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG104.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG104.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG105.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG105.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG105.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG106.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG106.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG106.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG107.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG107.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG107.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG108.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG108.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG108.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG109.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG109.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG109.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG110.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG110.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG110.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG111.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG111.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG111.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG112.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG112.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG112.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG113.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG113.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG113.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG114.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG114.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG114.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG115.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG115.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG115.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG116.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG116.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG116.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG117.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG117.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG117.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG118.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG118.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG118.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG119.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG119.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG119.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG120.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG120.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG120.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG121.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG121.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG121.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG122.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG122.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG122.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG123.PNG->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG123.PNG
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRIMG123.PNG
+[02/24/2022 10:05:24] Success	Copy uninstall plugin: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Wow64.lmd->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\Wow64.lmd
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\Wow64.lmd
+[02/24/2022 10:05:24] Success	Copy uninstall plugin: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRZip.lmd->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRZip.lmd
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\IRZip.lmd
+[02/24/2022 10:05:24] Skipped	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\licbr.html (Not needed by uninstall)
+[02/24/2022 10:05:24] Skipped	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\liccn.html (Not needed by uninstall)
+[02/24/2022 10:05:24] Skipped	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\licen.html (Not needed by uninstall)
+[02/24/2022 10:05:24] Skipped	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\lices.html (Not needed by uninstall)
+[02/24/2022 10:05:24] Skipped	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\licjp.html (Not needed by uninstall)
+[02/24/2022 10:05:24] Skipped	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\licpl.html (Not needed by uninstall)
+[02/24/2022 10:05:24] Skipped	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\licru.html (Not needed by uninstall)
+[02/24/2022 10:05:24] Skipped	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\lictr.html (Not needed by uninstall)
+[02/24/2022 10:05:24] Skipped	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\licua.html (Not needed by uninstall)
+[02/24/2022 10:05:24] Skipped	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu3Text1BR.html (Not needed by uninstall)
+[02/24/2022 10:05:24] Skipped	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu3Text1CN.html (Not needed by uninstall)
+[02/24/2022 10:05:24] Skipped	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu3Text1ES.html (Not needed by uninstall)
+[02/24/2022 10:05:24] Skipped	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu3Text1JP.html (Not needed by uninstall)
+[02/24/2022 10:05:24] Skipped	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu3Text1PL.html (Not needed by uninstall)
+[02/24/2022 10:05:24] Skipped	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu3Text1RU.html (Not needed by uninstall)
+[02/24/2022 10:05:24] Skipped	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu3Text1TR.html (Not needed by uninstall)
+[02/24/2022 10:05:24] Skipped	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu5Text1BR.html (Not needed by uninstall)
+[02/24/2022 10:05:24] Skipped	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu5Text1CN.html (Not needed by uninstall)
+[02/24/2022 10:05:24] Skipped	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu5Text1ES.html (Not needed by uninstall)
+[02/24/2022 10:05:24] Skipped	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu5Text1JP.html (Not needed by uninstall)
+[02/24/2022 10:05:24] Skipped	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu5Text1PL.html (Not needed by uninstall)
+[02/24/2022 10:05:24] Skipped	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu5Text1RU.html (Not needed by uninstall)
+[02/24/2022 10:05:24] Skipped	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu5Text1TR.html (Not needed by uninstall)
+[02/24/2022 10:05:24] Skipped	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu6Text1BR.html (Not needed by uninstall)
+[02/24/2022 10:05:24] Skipped	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu6Text1CN.html (Not needed by uninstall)
+[02/24/2022 10:05:24] Skipped	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu6Text1ES.html (Not needed by uninstall)
+[02/24/2022 10:05:24] Skipped	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu6Text1JP.html (Not needed by uninstall)
+[02/24/2022 10:05:24] Skipped	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu6Text1PL.html (Not needed by uninstall)
+[02/24/2022 10:05:24] Skipped	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu6Text1RU.html (Not needed by uninstall)
+[02/24/2022 10:05:24] Skipped	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu6Text1TR.html (Not needed by uninstall)
+[02/24/2022 10:05:24] Skipped	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu3Text1UA.html (Not needed by uninstall)
+[02/24/2022 10:05:24] Skipped	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu5Text1UA.html (Not needed by uninstall)
+[02/24/2022 10:05:24] Skipped	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu6Text1UA.html (Not needed by uninstall)
+[02/24/2022 10:05:24] Skipped	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\licRO.html (Not needed by uninstall)
+[02/24/2022 10:05:24] Skipped	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu3Text1RO.html (Not needed by uninstall)
+[02/24/2022 10:05:24] Skipped	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu5Text1RO.html (Not needed by uninstall)
+[02/24/2022 10:05:24] Skipped	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu6Text1RO.html (Not needed by uninstall)
+[02/24/2022 10:05:24] Skipped	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\licDE.html (Not needed by uninstall)
+[02/24/2022 10:05:24] Skipped	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu3Text1DE.html (Not needed by uninstall)
+[02/24/2022 10:05:24] Skipped	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu5Text1DE.html (Not needed by uninstall)
+[02/24/2022 10:05:24] Skipped	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu6Text1DE.html (Not needed by uninstall)
+[02/24/2022 10:05:24] Skipped	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\licFR.html (Not needed by uninstall)
+[02/24/2022 10:05:24] Skipped	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu3Text1FR.html (Not needed by uninstall)
+[02/24/2022 10:05:24] Skipped	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu5Text1FR.html (Not needed by uninstall)
+[02/24/2022 10:05:24] Skipped	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu6Text1FR.html (Not needed by uninstall)
+[02/24/2022 10:05:24] Skipped	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\licIT.html (Not needed by uninstall)
+[02/24/2022 10:05:24] Skipped	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu3Text1IT.html (Not needed by uninstall)
+[02/24/2022 10:05:24] Skipped	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu5Text1IT.html (Not needed by uninstall)
+[02/24/2022 10:05:24] Skipped	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu6Text1IT.html (Not needed by uninstall)
+[02/24/2022 10:05:24] Skipped	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\licLV.html (Not needed by uninstall)
+[02/24/2022 10:05:24] Skipped	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu3Text1LV.html (Not needed by uninstall)
+[02/24/2022 10:05:24] Skipped	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu5Text1LV.html (Not needed by uninstall)
+[02/24/2022 10:05:24] Skipped	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu6Text1LV.html (Not needed by uninstall)
+[02/24/2022 10:05:24] Skipped	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\licLT.html (Not needed by uninstall)
+[02/24/2022 10:05:24] Skipped	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu3Text1LT.html (Not needed by uninstall)
+[02/24/2022 10:05:24] Skipped	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu5Text1LT.html (Not needed by uninstall)
+[02/24/2022 10:05:24] Skipped	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu6Text1LT.html (Not needed by uninstall)
+[02/24/2022 10:05:24] Skipped	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu3Text1EN.html (Not needed by uninstall)
+[02/24/2022 10:05:24] Skipped	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\licDK.html (Not needed by uninstall)
+[02/24/2022 10:05:24] Skipped	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu3Text1DK.html (Not needed by uninstall)
+[02/24/2022 10:05:24] Skipped	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu5Text1DK.html (Not needed by uninstall)
+[02/24/2022 10:05:24] Skipped	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu6Text1DK.html (Not needed by uninstall)
+[02/24/2022 10:05:24] Skipped	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu3Text1NL.html (Not needed by uninstall)
+[02/24/2022 10:05:24] Skipped	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu5Text1NL.html (Not needed by uninstall)
+[02/24/2022 10:05:24] Skipped	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu6Text1NL.html (Not needed by uninstall)
+[02/24/2022 10:05:24] Skipped	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\licSE.html (Not needed by uninstall)
+[02/24/2022 10:05:24] Skipped	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu3Text1SE.html (Not needed by uninstall)
+[02/24/2022 10:05:24] Skipped	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu5Text1SE.html (Not needed by uninstall)
+[02/24/2022 10:05:24] Skipped	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu6Text1SE.html (Not needed by uninstall)
+[02/24/2022 10:05:24] Skipped	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\licNO.html (Not needed by uninstall)
+[02/24/2022 10:05:24] Skipped	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu3Text1NO.html (Not needed by uninstall)
+[02/24/2022 10:05:24] Skipped	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu5Text1NO.html (Not needed by uninstall)
+[02/24/2022 10:05:24] Skipped	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu6Text1NO.html (Not needed by uninstall)
+[02/24/2022 10:05:24] Skipped	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\licNL.html (Not needed by uninstall)
+[02/24/2022 10:05:24] Skipped	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\200.ico (Not needed by uninstall)
+[02/24/2022 10:05:24] Skipped	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\downloader.zip (Not needed by uninstall)
+[02/24/2022 10:05:24] Success	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\UnistallMenu1Text1RU.html->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\UnistallMenu1Text1RU.html
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\UnistallMenu1Text1RU.html
+[02/24/2022 10:05:24] Success	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\UnistallMenu3Text1RU.html->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\UnistallMenu3Text1RU.html
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\UnistallMenu3Text1RU.html
+[02/24/2022 10:05:24] Success	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\UnistallMenu1Text1BR.html->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\UnistallMenu1Text1BR.html
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\UnistallMenu1Text1BR.html
+[02/24/2022 10:05:24] Success	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\UnistallMenu3Text1BR.html->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\UnistallMenu3Text1BR.html
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\UnistallMenu3Text1BR.html
+[02/24/2022 10:05:24] Success	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\UnistallMenu1Text1CN.html->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\UnistallMenu1Text1CN.html
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\UnistallMenu1Text1CN.html
+[02/24/2022 10:05:24] Success	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\UnistallMenu1Text1DE.html->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\UnistallMenu1Text1DE.html
+[02/24/2022 10:05:24] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\UnistallMenu1Text1DE.html
+[02/24/2022 10:05:24] Success	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\UnistallMenu1Text1DK.html->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\UnistallMenu1Text1DK.html
+[02/24/2022 10:05:25] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\UnistallMenu1Text1DK.html
+[02/24/2022 10:05:25] Success	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\UnistallMenu1Text1ES.html->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\UnistallMenu1Text1ES.html
+[02/24/2022 10:05:25] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\UnistallMenu1Text1ES.html
+[02/24/2022 10:05:25] Success	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\UnistallMenu1Text1FR.html->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\UnistallMenu1Text1FR.html
+[02/24/2022 10:05:25] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\UnistallMenu1Text1FR.html
+[02/24/2022 10:05:25] Success	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\UnistallMenu1Text1IT.html->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\UnistallMenu1Text1IT.html
+[02/24/2022 10:05:25] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\UnistallMenu1Text1IT.html
+[02/24/2022 10:05:25] Success	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\UnistallMenu1Text1LT.html->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\UnistallMenu1Text1LT.html
+[02/24/2022 10:05:25] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\UnistallMenu1Text1LT.html
+[02/24/2022 10:05:25] Success	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\UnistallMenu1Text1LV.html->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\UnistallMenu1Text1LV.html
+[02/24/2022 10:05:25] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\UnistallMenu1Text1LV.html
+[02/24/2022 10:05:25] Success	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\UnistallMenu1Text1NL.html->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\UnistallMenu1Text1NL.html
+[02/24/2022 10:05:25] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\UnistallMenu1Text1NL.html
+[02/24/2022 10:05:25] Success	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\UnistallMenu1Text1NO.html->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\UnistallMenu1Text1NO.html
+[02/24/2022 10:05:25] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\UnistallMenu1Text1NO.html
+[02/24/2022 10:05:25] Success	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\UnistallMenu1Text1PL.html->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\UnistallMenu1Text1PL.html
+[02/24/2022 10:05:25] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\UnistallMenu1Text1PL.html
+[02/24/2022 10:05:25] Success	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\UnistallMenu1Text1RO.html->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\UnistallMenu1Text1RO.html
+[02/24/2022 10:05:25] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\UnistallMenu1Text1RO.html
+[02/24/2022 10:05:25] Success	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\UnistallMenu1Text1SE.html->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\UnistallMenu1Text1SE.html
+[02/24/2022 10:05:25] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\UnistallMenu1Text1SE.html
+[02/24/2022 10:05:25] Success	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\UnistallMenu1Text1TR.html->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\UnistallMenu1Text1TR.html
+[02/24/2022 10:05:25] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\UnistallMenu1Text1TR.html
+[02/24/2022 10:05:25] Success	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\UnistallMenu1Text1UA.html->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\UnistallMenu1Text1UA.html
+[02/24/2022 10:05:25] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\UnistallMenu1Text1UA.html
+[02/24/2022 10:05:25] Success	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\UnistallMenu3Text1CN.html->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\UnistallMenu3Text1CN.html
+[02/24/2022 10:05:25] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\UnistallMenu3Text1CN.html
+[02/24/2022 10:05:25] Success	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\UnistallMenu3Text1DE.html->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\UnistallMenu3Text1DE.html
+[02/24/2022 10:05:25] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\UnistallMenu3Text1DE.html
+[02/24/2022 10:05:25] Success	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\UnistallMenu3Text1DK.html->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\UnistallMenu3Text1DK.html
+[02/24/2022 10:05:25] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\UnistallMenu3Text1DK.html
+[02/24/2022 10:05:25] Success	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\UnistallMenu3Text1ES.html->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\UnistallMenu3Text1ES.html
+[02/24/2022 10:05:25] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\UnistallMenu3Text1ES.html
+[02/24/2022 10:05:25] Success	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\UnistallMenu3Text1FR.html->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\UnistallMenu3Text1FR.html
+[02/24/2022 10:05:25] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\UnistallMenu3Text1FR.html
+[02/24/2022 10:05:25] Success	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\UnistallMenu3Text1IT.html->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\UnistallMenu3Text1IT.html
+[02/24/2022 10:05:25] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\UnistallMenu3Text1IT.html
+[02/24/2022 10:05:25] Success	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\UnistallMenu3Text1LT.html->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\UnistallMenu3Text1LT.html
+[02/24/2022 10:05:25] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\UnistallMenu3Text1LT.html
+[02/24/2022 10:05:25] Success	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\UnistallMenu3Text1LV.html->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\UnistallMenu3Text1LV.html
+[02/24/2022 10:05:25] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\UnistallMenu3Text1LV.html
+[02/24/2022 10:05:25] Success	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\UnistallMenu3Text1NL.html->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\UnistallMenu3Text1NL.html
+[02/24/2022 10:05:25] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\UnistallMenu3Text1NL.html
+[02/24/2022 10:05:25] Success	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\UnistallMenu3Text1NO.html->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\UnistallMenu3Text1NO.html
+[02/24/2022 10:05:25] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\UnistallMenu3Text1NO.html
+[02/24/2022 10:05:25] Success	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\UnistallMenu3Text1PL.html->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\UnistallMenu3Text1PL.html
+[02/24/2022 10:05:25] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\UnistallMenu3Text1PL.html
+[02/24/2022 10:05:25] Success	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\UnistallMenu3Text1RO.html->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\UnistallMenu3Text1RO.html
+[02/24/2022 10:05:25] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\UnistallMenu3Text1RO.html
+[02/24/2022 10:05:25] Success	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\UnistallMenu3Text1SE.html->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\UnistallMenu3Text1SE.html
+[02/24/2022 10:05:25] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\UnistallMenu3Text1SE.html
+[02/24/2022 10:05:25] Success	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\UnistallMenu3Text1TR.html->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\UnistallMenu3Text1TR.html
+[02/24/2022 10:05:25] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\UnistallMenu3Text1TR.html
+[02/24/2022 10:05:25] Success	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\UnistallMenu3Text1UA.html->C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\UnistallMenu3Text1UA.html
+[02/24/2022 10:05:25] Success	Support file added to uninstall list: C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\UnistallMenu3Text1UA.html
+[02/24/2022 10:05:25] Skipped	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\MenuOperaText1BR.html (Not needed by uninstall)
+[02/24/2022 10:05:25] Skipped	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\MenuOperaText1CN.html (Not needed by uninstall)
+[02/24/2022 10:05:25] Skipped	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\MenuOperaText1DE.html (Not needed by uninstall)
+[02/24/2022 10:05:25] Skipped	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\MenuOperaText1DK.html (Not needed by uninstall)
+[02/24/2022 10:05:25] Skipped	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\MenuOperaText1ES.html (Not needed by uninstall)
+[02/24/2022 10:05:25] Skipped	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\MenuOperaText1FR.html (Not needed by uninstall)
+[02/24/2022 10:05:25] Skipped	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\MenuOperaText1IT.html (Not needed by uninstall)
+[02/24/2022 10:05:25] Skipped	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\MenuOperaText1LT.html (Not needed by uninstall)
+[02/24/2022 10:05:25] Skipped	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\MenuOperaText1LV.html (Not needed by uninstall)
+[02/24/2022 10:05:25] Skipped	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\MenuOperaText1NL.html (Not needed by uninstall)
+[02/24/2022 10:05:25] Skipped	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\MenuOperaText1NO.html (Not needed by uninstall)
+[02/24/2022 10:05:25] Skipped	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\MenuOperaText1PL.html (Not needed by uninstall)
+[02/24/2022 10:05:25] Skipped	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\MenuOperaText1RO.html (Not needed by uninstall)
+[02/24/2022 10:05:25] Skipped	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\MenuOperaText1SE.html (Not needed by uninstall)
+[02/24/2022 10:05:25] Skipped	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\MenuOperaText1TR.html (Not needed by uninstall)
+[02/24/2022 10:05:25] Skipped	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\MenuOperaText1UA.html (Not needed by uninstall)
+[02/24/2022 10:05:25] Skipped	Copy uninstall primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\AdditionalExecuteTL.exe (Not needed by uninstall)
+[02/24/2022 10:05:25] Success	Registry key added to uninstall list: SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\TLauncher
+[02/24/2022 10:05:25] Success	Uninstall CP entry: DisplayName = TLauncher
+[02/24/2022 10:05:25] Success	Uninstall CP entry: UninstallString = "C:\Users\yadav\AppData\Roaming\.tlauncher\tl-uninstall.exe" "/U:C:\Users\yadav\AppData\Roaming\.tlauncher\Uninstall\uninstall.xml"
+[02/24/2022 10:05:25] Success	Uninstall CP entry: Publisher = TLauncher Inc.
+[02/24/2022 10:05:25] Success	Uninstall CP entry: URLInfoAbout = https://tlauncher.org
+[02/24/2022 10:05:25] Success	Uninstall CP entry: HelpLink = https://tlauncher.org
+[02/24/2022 10:05:25] Success	Uninstall CP entry: Contact = TLauncher Inc.
+[02/24/2022 10:05:25] Success	Uninstall CP entry: DisplayVersion = 2.841
+[02/24/2022 10:05:25] Success	Uninstall CP entry: RegOwner = TLauncher Inc.
+[02/24/2022 10:05:25] Success	Uninstall CP entry: RegCompany = TLauncher Inc.
+[02/24/2022 10:05:25] Success	Uninstall CP entry: Comments = TLauncher Unistall
+[02/24/2022 10:05:25] Success	Uninstall CP entry: InstallLocation = C:\Users\yadav\AppData\Roaming\.minecraft
+[02/24/2022 10:05:25] Success	Uninstall CP entry: VersionMajor = 0.9.6
+[02/24/2022 10:05:25] Success	Uninstall CP entry: VersionMinor = 0.9.6
+[02/24/2022 10:05:25] Success	Uninstall CP entry: DisplayIcon = "C:\Users\yadav\AppData\Roaming\.minecraft\libraries\tlicon.ico",0
+[02/24/2022 10:05:25] Notice	Start project event: On Post Install
+[02/24/2022 10:05:25] Success	Run project event: On Post Install
+[02/24/2022 10:05:25] Success	Display screen: Custom 03
+[02/24/2022 10:05:27] Success	Display screen: Custom 04
+[02/24/2022 10:05:28] Notice	Start project event: On Shutdown
+[02/24/2022 10:05:28] Success	Run project event: On Shutdown
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG1.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG2.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG3.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG4.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG5.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG6.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG7.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG8.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG9.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG10.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG11.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG12.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG13.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG14.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG15.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG16.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG17.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG18.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG19.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG20.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG21.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG22.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG23.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG24.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG25.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG26.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG27.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG28.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG29.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG30.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG31.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG32.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG33.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG34.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG35.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG36.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG37.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG38.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG39.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG40.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG41.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG42.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG43.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG44.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG45.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG46.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG47.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG1.BMP
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG2.BMP
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG3.BMP
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG4.BMP
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG5.BMP
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG6.BMP
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG7.BMP
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG8.BMP
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG9.BMP
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG10.BMP
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG11.BMP
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG12.BMP
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG13.BMP
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG14.BMP
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG15.BMP
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG16.BMP
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG17.BMP
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG18.BMP
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG19.BMP
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG48.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG49.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG50.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG51.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG52.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG53.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG54.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG55.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG56.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG57.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG58.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG59.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG60.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG61.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG62.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG63.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG64.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG65.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG66.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG67.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG68.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG69.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG70.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG71.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG72.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG73.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG74.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG75.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG76.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG77.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG78.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG79.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG80.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG81.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG82.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG83.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG84.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG85.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG86.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG87.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG88.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG89.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG90.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG91.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG92.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG93.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG94.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG95.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG96.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG97.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG98.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG99.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG100.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG101.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG102.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG103.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG104.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG105.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG106.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG107.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG108.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG109.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG110.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG111.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG112.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG113.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG114.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG115.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG116.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG117.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG118.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG119.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG120.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG121.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG122.PNG
+[02/24/2022 10:05:28] Success	Delete image file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRIMG123.PNG
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\licbr.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\liccn.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\licen.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\lices.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\licjp.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\licpl.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\licru.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\lictr.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\licua.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu3Text1BR.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu3Text1CN.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu3Text1ES.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu3Text1JP.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu3Text1PL.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu3Text1RU.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu3Text1TR.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu5Text1BR.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu5Text1CN.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu5Text1ES.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu5Text1JP.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu5Text1PL.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu5Text1RU.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu5Text1TR.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu6Text1BR.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu6Text1CN.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu6Text1ES.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu6Text1JP.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu6Text1PL.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu6Text1RU.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu6Text1TR.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu3Text1UA.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu5Text1UA.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu6Text1UA.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\licRO.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu3Text1RO.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu5Text1RO.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu6Text1RO.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\licDE.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu3Text1DE.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu5Text1DE.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu6Text1DE.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\licFR.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu3Text1FR.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu5Text1FR.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu6Text1FR.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\licIT.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu3Text1IT.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu5Text1IT.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu6Text1IT.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\licLV.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu3Text1LV.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu5Text1LV.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu6Text1LV.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\licLT.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu3Text1LT.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu5Text1LT.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu6Text1LT.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu3Text1EN.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\licDK.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu3Text1DK.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu5Text1DK.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu6Text1DK.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu3Text1NL.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu5Text1NL.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu6Text1NL.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\licSE.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu3Text1SE.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu5Text1SE.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu6Text1SE.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\licNO.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu3Text1NO.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu5Text1NO.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Menu6Text1NO.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\licNL.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\200.ico
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\downloader.zip
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\UnistallMenu1Text1RU.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\UnistallMenu3Text1RU.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\UnistallMenu1Text1BR.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\UnistallMenu3Text1BR.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\UnistallMenu1Text1CN.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\UnistallMenu1Text1DE.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\UnistallMenu1Text1DK.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\UnistallMenu1Text1ES.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\UnistallMenu1Text1FR.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\UnistallMenu1Text1IT.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\UnistallMenu1Text1LT.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\UnistallMenu1Text1LV.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\UnistallMenu1Text1NL.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\UnistallMenu1Text1NO.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\UnistallMenu1Text1PL.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\UnistallMenu1Text1RO.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\UnistallMenu1Text1SE.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\UnistallMenu1Text1TR.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\UnistallMenu1Text1UA.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\UnistallMenu3Text1CN.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\UnistallMenu3Text1DE.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\UnistallMenu3Text1DK.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\UnistallMenu3Text1ES.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\UnistallMenu3Text1FR.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\UnistallMenu3Text1IT.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\UnistallMenu3Text1LT.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\UnistallMenu3Text1LV.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\UnistallMenu3Text1NL.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\UnistallMenu3Text1NO.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\UnistallMenu3Text1PL.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\UnistallMenu3Text1RO.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\UnistallMenu3Text1SE.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\UnistallMenu3Text1TR.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\UnistallMenu3Text1UA.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\MenuOperaText1BR.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\MenuOperaText1CN.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\MenuOperaText1DE.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\MenuOperaText1DK.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\MenuOperaText1ES.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\MenuOperaText1FR.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\MenuOperaText1IT.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\MenuOperaText1LT.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\MenuOperaText1LV.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\MenuOperaText1NL.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\MenuOperaText1NO.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\MenuOperaText1PL.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\MenuOperaText1RO.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\MenuOperaText1SE.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\MenuOperaText1TR.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\MenuOperaText1UA.html
+[02/24/2022 10:05:28] Success	Delete primer file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\AdditionalExecuteTL.exe
+[02/24/2022 10:05:28] Success	Delete plugin file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\Wow64.lmd
+[02/24/2022 10:05:28] Success	Delete plugin file: C:\Users\yadav\AppData\Local\Temp\_ir_sf_temp_0\IRZip.lmd
+[02/24/2022 10:05:28] Notice	Exit setup process (Return code: 0)
+
